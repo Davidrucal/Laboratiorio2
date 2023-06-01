@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;    
+}
+
+.top{
+    width: 100%;
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text{
+    width: 50%;
+    height: 80vh;
+
+}
+
+
+.content{
+    display: flex;
+}
+
+.casaca{
+    display: flex;
+    align-items: center;
+    
+    font-size: 40px;
+    font-weight: 500;
+    
+    height: 70%;
+    width: 100%;
+}
+
+.casaca .casaca_ori{
+    margin: 0 75px;
+    width: 60%;
+}
+
+.text .descuento{
+    
+    text-align: start;
+    height: 25%;
+    width: 60%;
+    font-size: 30px;
+    font-weight: 1200;
+    color: red;
+}
+
+.text .descuento h1{
+    font-family: 'Lato', sans-serif;
+    margin-left: 16%;
+}
+
+.text .asolo{
+    text-align: start;
+    width: 60%;
+    
+    font-size: 25px;
+    color: black;
+}
+
+.text .asolo p{
+    
+    
+    margin-left: 16%;
+}
+
+.content .imagenbuy{
+    
+    width: 50%;
+    height: 90vh;
+}
+.content .imagenbuy .title{
+    flex-wrap: wrap;
+    
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content .imagenbuy .title .titleori{
+    font-weight: bolder;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 750px;
+    font-size: 30px;
+
+}
+
+
+
+
+.content .imagenbuy .title .personalizadasori{
+    font-weight: bold;
+    height: 50%;
+    font-size: 20px;
+    color: red;
+}
+
+.content .imagenbuy .image{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+ 
+.content .imagenbuy .image img{
+    height: 80%;
+}
+
+.content .imagenbuy .buttons{
+    
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.content .imagenbuy .buttons button{
+    border-radius: 10px;
+}
+
+.content .imagenbuy .buttons #comprar{
+    border: none;
+    width: 250px;
+    height: 35px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+}
+
+.content .imagenbuy .buttons #ori{
+    border-color: red  ;
+    width: 10%;
+    height: 35px;
+    background-color: white;
+    color: white;
+}

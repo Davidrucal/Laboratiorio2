@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestas tazas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/82790fac8b.js" crossorigin="anonymous"></script>
+
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'roboto', sans-serif; 
+        }
+
+        .top{
+            padding-top: 1vh;
+            width: 100%;
+            height: 10vh;
+            background-color: white;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .top .input{
+
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 3vw;
+            height: 40px;
+            background-color: #f5f5f5;
+        }
+
+        .top input{
+            outline: none;
+            background-color: #f5f5f5;
+            border-color: none;
+            border: none;
+            height: 35px;
+            width: 58vw;
+            border-radius: 50px;
+            
+        }
+
+        .top .input i{
+            padding: 5%;
+        }
+
+
+        .top img{
+            margin: 0 0 0 2vw;
+            justify-content: start;
+        }
+
+        .top #carro{
+           margin-left: 8vw;
+       }
+
+       
+
+ 
+        
+        .top i{
+            font-size: 25px;
+            margin: 0 2vw 0 2vw;
+        }
+
+
+
+
+
+
+
+
+        .main{
+            height: 90vh;
+            width: 100%;
+            display: flex;
+        }
+
+        .cars{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            
+            height: 90vh;
+            width: 33%;
+        }
+
+
+
+        .cars .imgcars{
+            display: flex;
+            justify-content: center;
+            
+            
+            width: 100%;
+            height: 50%;
+        }
+        .cars .imgcars img{
+            margin: 4vh 0 0 0 ;
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+           
+        }
+
+        .cars .text{
+            line-height: 25px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 10%;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .cars .text .p{
+            width: 250px;
+        }
+
+        .cars .h2{
+            margin-top: 14vh;
+            display: flex;
+            justify-content: start;
+            height: 5%;
+            width: 100%;
+           
+            
+        }
+
+        .cars h2{
+            font-weight: bolder;
+            margin-left: 8vw;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .buttons{
+            
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .buttons button{
+            
+            border-radius: 10px;
+        }
+
+        .buttons #comprar{
+            margin: 2vh 0 0 1vw;
+            border: none;
+            width: 250px;
+            height: 35px;
+            font-size: 25px;
+            background-color: red;
+            color: white;
+        }
+
+        .buttons #ori{
+            margin: 2vh 0 0 0 ;
+            border-color: red  ;
+            width: 10%;
+            height: 35px;
+            background-color: white;
+            color: white;
+        }
+
+        .cars .imgjulian img{
+            margin: 4vh 0 0 0 ;
+            width: 200px;
+            height: 250px;
+            border-radius: 10px;
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <a href="../index.html">
+            <img src="../img/logo sin fondo.png" alt="">
+        </a>
+
+        <div class="input">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ff0000;"></i>
+            <input type="text" placeholder="Buscar..">
+        </div>
+        <a href=""><i class="fa-sharp fa-solid fa-cart-shopping carrito" style="color: #ff0000;" id="carro"></i></a>
+        <a href="registrarse.html"><i class="fa-solid fa-user oricito" style="color: #ff0000; " id="oricito"></i></a>
+    </div>
+
+
+    <div>
+        <div class="main">
+
+
+            <div class="cars">
+                <div class="imgjulian">
+                    <img src="../img/baner1.jpeg" alt="">
+                </div>
+
+                <div class="text">
+                    <div class="p">
+                        <p>Banner de lona front brillo. Escoge 
+                            tu formato publicitario, crea
+                            y personaliza tus diseños.
+                            Disponible en todos los tamaños.</p>
+                    </div>
+                </div>
+
+                <div class="h2">
+                    <h2>Q80.00</h2>
+                </div>
+
+                <div class="buttons">
+                    <button id="comprar">Comprar</button>
+                    <button id="ori"><i class="fa-solid fa-heart" style="color: #ff0000;"></i></button>
+                </div>
+            </div>
+
+            <div class="cars">
+                <div class="imgjulian">
+                    <img src="../img/baner2.jpeg    " alt="">
+                </div>
+
+                <div class="text">
+                    <div class="p">
+                        <p>Banner de lona front mate. Escoge 
+                            tu formato publicitario, crea
+                            y personaliza tus diseños.
+                            Disponible en todos los tamaños.</p>
+                    </div>
+                </div>
+
+                <div class="h2">
+                    <h2>Q80.00</h2>
+                </div>
+
+                <div class="buttons">
+                    <button id="comprar">Comprar</button>
+                    <button id="ori"><i class="fa-solid fa-heart" style="color: #ff0000;"></i></button>
+                </div>
+            </div>
+
+            <div class="cars">
+                <div class="imgjulian">
+                    <img src="../img/baner3.jfif" alt="">
+                </div>
+
+                <div class="text">
+                    <div class="p">
+                        <p>Banner publicitario. Escoge 
+                            tu formato publicitario, crea
+                            y personaliza tus diseños.
+                            Disponible en todos los tamaños.</p>
+                    </div>
+                </div>
+
+                <div class="h2">
+                    <h2>Q80.00</h2>
+                </div>
+
+                <div class="buttons">
+                    <button id="comprar">Comprar</button>
+                    <button id="ori"><i class="fa-solid fa-heart" style="color: #ff0000;"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

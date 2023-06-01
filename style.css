@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.links{
+    
+    background-color: rgb(0, 0, 0);
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    
+    font-weight: bond;
+    
+    margin: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+/* ----------------------------drop down------------------------------ */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+  
+.dropdown-content {
+    border-radius: 15px;
+    flex-wrap: wrap;
+    display: none;
+    height: auto;
+    width: 120px;
+    position: absolute;
+    background-color: red;
+    left: 0;
+    top: 100%;
+    transform: translateX(65%);
+}
+  
+
+
+.dropdown-content a {
+    
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin: 2% auto;
+    text-decoration: none;
+    display: block;
+    width: 80%;
+    padding: 5px 0;
+    text-align: start;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  
+
+.search{
+    background-image: url(img/taza.baner.jpeg);
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position-y: 50%;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+}
+
+
+
+.searchimg{
+    align-items: center;
+    display: flex;
+    height: 11vh;
+   margin-left: 25px;
+    width: 45;
+}
+
+.search .input i{
+    margin: 0 5px 0 10px;
+}
+.search .input{
+
+    background-color: #f5f5f5;
+    
+    display: flex;
+    align-items: center;
+    
+    width: 90%;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.search input{
+    outline: none;
+    background-color: #f5f5f5;
+    border-color: none;
+    border: none;
+    height: 35px;
+    width: 900px;
+    border-radius: 50px;
+}
+
+
+
+.search .shop{
+    margin-left: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    
+    width: 10%;
+}
+
+.search .shop .shopbutton{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    
+    
+}
+
+.search .shop .shopbutton i{
+    font-size: 30px;
+}
+
+.textbutton{
+    flex-wrap: wrap;
+    display: flex;
+    width: 25%;
+    height: 70vh;
+}
+
+.textbutton .text{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbutton .text .textori{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sales{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    
+}
+.sales .text .topsale h3{
+    letter-spacing: 3px;
+    font-weight: 1000;
+    font-size: 75px;
+    color: red;
+}
+
+.sales .text .descuento{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    background-color: red;
+}
+
+.sales .text .descuento p{
+    color: white;
+    font-size: 28px;
+
+}
+
+.sales .textbutton .button_ofertas{
+    display: flex;
+    justify-content: center;
+    
+    height: 50%;
+    width: 100%;
+    
+}
+
+.sales .textbutton .button_ofertas img{
+    margin-top: 5vh;
+    width: 300px;
+}
+
+.sales .text .topsale{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50%;
+    width: 100%;
+}
+
+.sles .text .descuento{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50%;
+    width: 100%;
+}
+
+.sales .productssales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 70vh;
+    width: 75%;
+
+}
+
+.sales .productssales img{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin: 0 25px 0 25px;
+}
+
+
+
+.sales .productssales img{
+    border-radius: 50px;
+    /* border: 3px solid grey;  */
+}
+
+.sales .productssales a{
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+footer{
+
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.enlaces .info{
+    text-align: center;
+    width: 20%;
+    height: 100%;    
+}
+
+.enlaces .info h4{
+    margin: 25px 0 25px 0;
+    color: white;  
+}
+
+.enlaces .info a{
+
+
+    font-size: small;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.enlaces .atencion{
+    text-align: center;
+    width: 20%;
+    height: 100%;    
+}
+
+.enlaces .atencion h4{
+    margin: 25px 0 25px 0;
+    color: white;  
+}
+
+.enlaces .atencion a{
+    margin-bottom: 10px;
+    display: block;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+
+}
+
+.enlaces .extras{
+    text-align: center;
+    width: 20%;
+    height: 100%;    
+}
+
+.enlaces .extras h4{
+    margin: 25px 0 25px 0;
+    color: white;  
+}
+
+.enlaces .extras a{
+    margin-bottom: 10px;
+    display: block;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.enlaces .micuenta{
+    text-align: center;
+    width: 20%;
+    height: 100%;    
+}
+
+.enlaces .micuenta h4{
+    margin: 25px 0 25px 0;
+    color: white;  
+}
+
+.enlaces .micuenta a{
+    margin-bottom: 10px;
+    display: block;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+
+}
+
+.enlaces .siguenos{
+    text-align: center;
+    width: 20%;
+    height: 100%;    
+}
+
+.enlaces .siguenos h4{
+    margin: 25px 0 25px 0;
+    color: white;  
+}
+
+.enlaces .siguenos a{
+    margin-bottom: 10px;
+    display: block;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+

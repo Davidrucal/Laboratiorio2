@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contacto - Mategraph</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background-image: url(../img/reg-ini.baner.jpeg);
+      background-size: cover; /* Ajusta la imagen al tamaño del div */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
+
+    .top{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 13vh;
+        margin-bottom: 25px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    input[type="submit"] {
+      background-color: red;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-info {
+      margin-top: 30px;
+      color: #333;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    .contact-info p:last-child {
+      margin-bottom: 0;
+    }
+
+    .info-heading {
+        
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    .info-heading h2{
+        font-size: large;
+        font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+    <div class="top">
+        <a href="../index.html">
+            <img src="img/logo sin fondo.png" alt="">
+        </a>
+    </div>
+
+  <div class="container">
+    <h1>Contacto</h1>
+    <form action="#" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="text" id="telefono" name="telefono" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <input type="submit" value="Enviar mensaje">
+    </form>
+
+    <div class="contact-info">
+      <h2 class="info-heading">Info de contacto</h2>
+      <p>Atención al cliente: <a href="mailto:info@mategraph.com.ar">info@mategraph.com.ar</a></p>
+      <p>Administración: <a href="mailto:aguskarlsson@mategraph.com.ar">aguskarlsson@mategraph.com.ar</a></p>
+      <p>Ventas: <a href="mailto:ventas@mategraph.com.ar">ventas@mategraph.com.ar</a></p>
+      <p>MATEGRAPH</p>
+      <p>Cruz Alta 2037</p>
+      <p>Tel: 1153498854</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playeras</title>
+
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/82790fac8b.js" crossorigin="anonymous"></script>
+
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'roboto', sans-serif; 
+        }
+
+
+        .top{
+            padding-top: 1vh;
+            width: 100%;
+            height: 10vh;
+            background-color: white;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .top .input{
+
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 3vw;
+            height: 40px;
+            background-color: #f5f5f5;
+        }
+
+        .top input{
+            outline: none;
+            background-color: #f5f5f5;
+            border-color: none;
+            border: none;
+            height: 35px;
+            width: 58vw;
+            border-radius: 50px;
+            
+        }
+
+        .top .input i{
+            padding: 5%;
+        }
+
+
+        .top img{
+            margin: 0 0 0 2vw;
+            justify-content: start;
+        }
+
+        
+        
+        .main{
+            flex-wrap: wrap;
+            display: flex;
+        }
+
+        .right{
+            display: flex;
+            flex-wrap: wrap;
+            width: 40%;
+            height: 90vh;
+        }
+
+        .right .title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 30%;
+        }
+
+        .right .title .h1{
+            margin-top: 10vh;
+            color: #343232;
+            font-family: 'Lato', sans-serif;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 50%;
+            width: 100%;
+        }
+
+        .right .title .p{
+            color: red;
+            font-weight: 600;
+            font-size: 30px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .right .camisaimg{
+            display: flex;
+            height: 70%;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+        }
+
+        .right .camisaimg img{
+            width: 50%;
+        }
+
+        .left{
+            
+            width: 60%;
+            height: 90vh;
+        }
+        .casaca{
+            margin-top: 10vh;
+            display: flex;
+            align-items: center;
+            
+            font-size: 30px;
+            font-weight: 500;
+            
+            height: 70%;
+            width: 100%;
+        }
+
+        .casaca .casaca_ori{
+            padding: 5vh 0 0 0 ;
+            
+            margin: 0 75px;
+            width: 60%;
+        }
+
+        .text .descuento{
+            
+            text-align: start;
+            height: 25%;
+            width: 60%;
+            font-size: 25px;
+            font-weight: 1200;
+            color: red;
+        }
+
+        .text .descuento h1{
+            padding-top: 10vh;
+            font-family: 'Lato', sans-serif;
+            margin-left: 16%;
+        }
+
+        .text .asolo{
+            text-align: start;
+            width: 60%;
+            
+            font-size: 25px;
+            color: black;
+        }
+
+        .text .asolo p{
+            
+            
+            margin-left: 16%;
+        }
+
+        .content .imagenbuy{
+            
+            width: 50%;
+            height: 90vh;
+        }
+        .content .imagenbuy .title{
+            flex-wrap: wrap;
+            
+            align-items: center;
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .content .imagenbuy .title .titleori{
+            font-weight: bolder;
+            height: 50%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            width: 750px;
+            font-size: 30px;
+
+        }
+
+
+
+
+        .title .personalizadasori{
+            font-weight: bold;
+            height: 50%;
+            font-size: 20px;
+            color: red;
+        }
+
+        .buttons{
+            
+            height: 25%;
+            display: flex;
+            
+            align-items: flex-start;
+        }
+
+        .buttons button{
+            
+            border-radius: 10px;
+        }
+
+        .buttons #comprar{
+            margin: 7vh 0 0 5vw;
+            border: none;
+            width: 250px;
+            height: 35px;
+            font-size: 25px;
+            background-color: red;
+            color: white;
+        }
+
+        .buttons #ori{
+            margin: 7vh 0 0 0 ;
+            border-color: red  ;
+            width: 10%;
+            height: 35px;
+            background-color: white;
+            color: white;
+        }
+
+
+       .top #carro{
+           margin-left: 8vw;
+       }
+
+       
+
+ 
+        
+        .top i{
+            font-size: 25px;
+            margin: 0 2vw 0 2vw;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <div class="top">
+        <a href="../index.html">
+            <img src="../img/logo sin fondo.png" alt="">
+        </a>
+
+        <div class="input">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ff0000;"></i>
+            <input type="text" placeholder="Buscar..">
+        </div>
+        <a href=""><i class="fa-sharp fa-solid fa-cart-shopping carrito" style="color: #ff0000;" id="carro"></i></a>
+        <a href="registrarse.html"><i class="fa-solid fa-user oricito" style="color: #ff0000; " id="oricito"></i></a>
+    </div>
+
+
+    <div class="main">
+
+        <div class="right">
+            <div class="title">
+                <div class="h1">
+                    <h1>Nuevas tazas</h1>
+                </div>
+
+                <div class="p">
+                    <p>Personalizadas</p>
+                </div>
+                
+            </div>
+
+            <div class="camisaimg">
+                <img src="../img/tazas.ori.jpeg" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="left">
+            <div class="text">
+                <div class="casaca">
+                    <div class="casaca_ori">
+                        <p>¡No te pierdas nuestra nueva oferta! Crea tu propio diseño o escoge un diseño de nuestro catálogo y pide una taza.</p>
+                    </div>
+                </div>
+                <div class="descuento">
+                    <h1>20% DE DESCUENTO</h1>
+                </div>
+                <div class="asolo">
+                    <p>A solo Q80.00</p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="comprar">Comprar</button>
+                <button id="ori"><i class="fa-solid fa-heart" style="color: #ff0000;"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

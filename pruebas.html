@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MateGraph</title>
+    <link rel="stylesheet" href="ori.css">
+    <script src="https://kit.fontawesome.com/82790fac8b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="links">
+        <a href="">Home</a>
+        <div class="dropdown">
+            <a href="">Productos</a>
+            <div class="dropdown-content">
+                <div class="drop1">
+                    <a href="">Baner</a>
+                </div>
+                <div class="remeras"><a href="">Remeras</a></div>
+                <div class="tazas"><a href="">Tazas</a></div>
+            </div>
+        </div>
+        <a href="helppages/registrarse.html">Mi cuenta</a>
+        <a href="">Ayuda</a>
+        <a href="">Contacto</a>
+    </div>
+
+    <div class="search">
+        <div class="searchimg">
+            <img src="img/logo sin fondo.png" alt="">
+            <div class="input">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ff0000;"></i>
+                <input type="text" placeholder="Buscar..">
+            </div>
+
+        </div>
+
+        <div class="shop">
+            <div class="shopbutton">
+                <a href="">
+                    <i class="fa-sharp fa-solid fa-cart-shopping" style="color: #ff0000;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="sales">
+        <div class="textbutton">
+            <div class="text">
+                
+                <div class="topsale">
+                   <h3>Top Sale</h3>
+                </div>
+                <div class="descuento">
+                    <p>10% de descuento</p>
+                </div>
+            </div>
+
+            <div class="button_ofertas">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="productssales">
+            <a href="">
+                <img src="img/camisa 2.png" alt="" id="camisa">
+                <p>Plateras Sublimales</p>
+            </a>
+
+            <a href="">
+                <img src="img/tazapng.png" alt="">
+                <p>Tazas sublimables</p>
+            </a>
+
+            <a href="">
+                <img src="img/baner.fin.jpeg" alt="">
+                <p>Baner sublimable</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="remeras">
+            <h2>Remeras</h2>
+            <a href="">
+                <img src="img/camisa1.png" alt="">
+            </a>
+            <a href="">
+                <img src="img/camisa 2.png" alt="">
+            </a>
+        </div>
+
+        <div class="tazas">
+            <h2>Tazas</h2>
+            <a href="">
+                <img src="img/tazapng.png" alt="">
+            </a>
+            <a href="">
+                <img src="img/tazapng.png" alt="">
+            </a>
+        </div>
+
+        <div class="baners">
+            <h2>Baners</h2>
+            <a href="">
+                <img src="img/baner.fin.jpeg" alt="">
+            </a>
+            <a href="">
+                <img src="img/baner.fin.jpeg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="links">
+            <a href="">Home</a>
+            <a href="">Productos</a>
+            <a href="">Mi cuenta</a>
+            <a href="">Ayuda</a>
+            <a href="">Contacto</a>
+        </div>
+        <div class="social">
+            <a href="">
+                <i class="fa-regular fa-solid fa-envelope"></i>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+    <script>
+        var imagenes = ['img/taza.baner.png', 'img/taza2.baner2.png', 'img/taza3.baner.png'];
+        var index = 0;
+        var searchDiv = document.getElementById('searchDiv');
+
+        function cambiarImagen() {
+            searchDiv.style.backgroundImage = 'url(' + imagenes[index] + ')';
+            index++;
+            if (index === imagenes.length) {
+                index = 0;
+            }
+        }
+
+        setInterval(cambiarImagen, 5000); // Cambia la imagen cada 5 segundos
+    </script>
+</body>
+</html>
